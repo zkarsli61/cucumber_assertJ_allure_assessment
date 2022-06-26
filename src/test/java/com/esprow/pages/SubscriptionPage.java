@@ -22,7 +22,7 @@ public class SubscriptionPage extends BasePage {
     private final By confirmButton = By.xpath("//button[contains(@class,'subscription-confirm-button')]");
     private final By alertConfirmButton = By.cssSelector(".kUOSAq .sc-AykKE");
     private final By processPendingSubscription = By.xpath("//button[text()='Remove']");
-    private final By protocolType = By.xpath("//input[@readonly='']");
+    private final By protocolType = By.cssSelector("input.sc-LzLtL");
     private final String numOfSessionsBaseLocate = "//span[text()='Number of Sessions']//following::div[1]";
     private final By minusButton = By.xpath(numOfSessionsBaseLocate + "/div[1]");
     private final By numOfSessions = By.xpath(numOfSessionsBaseLocate + "/div[2]");
