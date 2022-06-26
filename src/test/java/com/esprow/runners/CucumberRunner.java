@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = {"src/test/resources/features"
         },
         glue = "com/esprow/step_definitions",
-        dryRun = true,
+        dryRun = false,
         monochrome = true,
         plugin = {"pretty","html:target/default-cucumber-reports",
                 "io.qameta.allure.cucumber4jvm.AllureCucumber4Jvm",
